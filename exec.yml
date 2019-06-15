@@ -1,5 +1,5 @@
 - hosts: targets
   vars_files: 
-    - main.yml
+    - inventories/main/host_vars/main.yml
   roles:
-    - main
+    - exec
