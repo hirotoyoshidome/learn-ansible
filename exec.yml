@@ -1,0 +1,5 @@
+- hosts: targets
+  vars_files: 
+    - main.yml
+  roles:
+    - main
